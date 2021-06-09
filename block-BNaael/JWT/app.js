@@ -10,7 +10,7 @@ var usersRouter = require('./routes/users');
 
 
 mongoose.connect(
-  'mongodb://localhost/loginUsingJWT',
+  'mongodb://localhost/login-signupJWT',
   { useNewUrlParser: true, useUnifiedTopology: true },
   (err) => {
     console.log(err ? err : 'Connected to database');
